@@ -19,6 +19,10 @@ Uma experiência pensada para quem quer ir além do café comum. Explore receita
 CTA:
 ( LINK )[Explorar Receitas]
 
+--
+
+( IMAGEM HERO )[Imagem]
+
 ---
 
 Primeira Seção: Frase

@@ -1,0 +1,222 @@
+CARDS DE RECEITAS
+Cards Internos
+
+---
+
+-> CLÁSSICOS:
+
+---
+Espresso
+
+Hero:
+( IMAGEM HERO )[Padrão]
+
+Tag:
+> Clássico
+
+Seção - Sobre a Receita:
+Café concentrado com extração sob pressão.
+
+( RENDIMENTO )[1 xícara pequena (30 ml)]
+
+--
+Equipamentos:
+
+Máquina de espresso
+Porta-filtro
+Tamper (compactador)
+Balança (recomendado)
+Moedor (caso use grão)
+
+--
+Ingredientes:
+
+18 g de café moído fino
+Água filtrada (aprox. 40 ml na máquina)
+
+--
+Modo de Preparo:
+
+Passo 1 - Aqueça a máquina por pelo menos 5 minutos.
+Passo 2 - Moa 18 g de café em moagem fina.
+Passo 3 - Coloque no porta-filtro e compacte com pressão uniforme (~15 kg).
+Passo 4 - Inicie a extração imediatamente.
+Passo 5 - Extraia entre 25–30 segundos até obter ~30 ml.
+
+--
+Dica do Barista:
+Se o café sair muito rápido, a moagem está grossa. Se demorar demais, está fina demais. Ajuste até atingir ~25–30 segundos.
+
+---
+Café Coado
+
+Hero:
+( IMAGEM HERO )[Padrão]
+
+Tag:
+> Clássico
+
+Seção - Sobre a Receita:
+Método limpo que destaca aroma e acidez.
+
+( RENDIMENTO )[1 caneca (240 ml)]
+
+--
+Equipamentos:
+
+Filtro de papel
+Suporte (V60 ou coador)
+Chaleira (preferência com bico fino)
+Balança
+Moedor (opcional)
+
+--
+Ingredientes:
+
+15 g de café moído médio
+250 ml de água (92–96°C)
+
+--
+Modo de Preparo:
+
+Passo 1 - Aqueça a água até ~94°C.
+Passo 2 - Enxágue o filtro com água quente.
+Passo 3 - Adicione o café.
+Passo 4 - Faça pré-infusão com 30 ml (30 segundos).
+Passo 5 - Continue despejando água lentamente em movimentos circulares.
+
+--
+Dica do Barista:
+Controle o fluxo da água. Despejar rápido demais resulta em subextração (café fraco).
+
+---
+Café com Leite
+
+Hero:
+( IMAGEM HERO )[Padrão]
+
+Tag:
+> Clássico
+
+Seção - Sobre a Receita:
+Mistura simples e reconfortante.
+
+( RENDIMENTO )[1 caneca (240 ml)]
+
+--
+Equipamentos:
+
+Panela ou leiteira
+Fogão ou vaporizador
+Xícara grande
+
+--
+Ingredientes:
+
+120 ml de café coado
+120 ml de leite
+Açúcar (opcional)
+
+--
+Modo de Preparo:
+
+Passo 1 - Prepare o café coado.
+Passo 2 - Aqueça o leite até ~65°C (não ferver).
+Passo 3 - Adicione o café na caneca.
+Passo 4 - Misture o leite em proporção 1:1.
+
+--
+Dica do Barista:
+Leite muito quente perde doçura natural.
+
+---
+Café Americano
+
+Hero:
+( IMAGEM HERO )[Padrão]
+
+Tag:
+> Clássico
+
+Seção - Sobre a Receita:
+Espresso com adição de água quente.
+
+( RENDIMENTO )[1 xícara (150 ml)]
+
+--
+Equipamentos:
+
+Máquina de espresso
+Chaleira
+
+--
+Ingredientes:
+
+30 ml de espresso
+120 ml de água quente
+
+--
+Modo de Preparo:
+
+Passo 1 - Prepare o espresso.
+Passo 2 - Adicione água quente (não fervente).
+
+--
+Dica do Barista:
+Adicionar água depois preserva o aroma do café.
+
+---
+
+-> COM LEITE:
+
+---
+Cappuccino
+
+Hero:
+( IMAGEM HERO )[Padrão]
+
+Tag:
+> Com leite
+
+Seção - Sobre a Receita:
+Bebida equilibrada que combina café, leite vaporizado e espuma cremosa.
+
+( RENDIMENTO )[1 xícara (180 ml)]
+
+--
+Equipamentos:
+
+Máquina de espresso
+Vaporizador de leite
+Jarra de leite
+Xícara
+
+--
+Ingredientes:
+
+30 ml de espresso
+120 ml de leite integral
+Chocolate em pó (opcional)
+
+--
+Modo de Preparo:
+
+Passo 1 - Prepare o espresso (30 ml).
+Passo 2 - Vaporize o leite até 60–65°C, criando microespuma.
+Passo 3 - Misture mantendo proporção 1:1:1 (café, leite, espuma).
+Passo 4 - Finalize com chocolate (opcional).
+
+--
+Dica do Barista:
+A textura ideal do leite é cremosa e brilhante, sem bolhas grandes.
+
+LATTEE[]
+
+
+
+
+
+
+
+
+

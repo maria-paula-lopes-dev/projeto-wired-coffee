@@ -12,6 +12,8 @@ Receitas Wired
 Texto:
 Do café coado tradicional às bebidas mais elaboradas, explore receitas pensadas para você preparar em casa com qualidade e simplicidade.
 
+( IMAGEM HERO )[Imagem]
+
 ---
 
 Primeira Seção: Cards
