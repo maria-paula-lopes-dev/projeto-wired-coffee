@@ -210,13 +210,624 @@ Passo 4 - Finalize com chocolate (opcional).
 Dica do Barista:
 A textura ideal do leite é cremosa e brilhante, sem bolhas grandes.
 
-LATTEE[]
+---
+Latte
 
+Hero:
+( IMAGEM HERO )[Padrão]
 
+Tag:
+> Com leite
 
+Seção - Sobre a Receita:
+Bebida suave com maior proporção de leite e leve camada de microespuma.
 
+( RENDIMENTO )[1 copo (240 ml)]
 
+--
+Equipamentos:
 
+Máquina de espresso
+Vaporizador de leite
+Jarra de leite
+Termômetro (opcional)
+Copo alto
 
+--
+Ingredientes:
 
+30 ml de espresso
+210 ml de leite integral
+Açúcar (opcional)
 
+--
+Modo de Preparo:
+
+Passo 1 - Prepare o espresso.
+Passo 2 - Aqueça o leite até 60–65°C com pouca incorporação de ar.
+Passo 3 - Despeje o leite lentamente sobre o café.
+Passo 4 - Finalize com fina camada de espuma.
+
+--
+Dica do Barista:
+Evite espuma grossa — latte deve ser mais líquido e aveludado.
+
+---
+Mocha
+
+Hero:
+( IMAGEM HERO )[Padrão]
+
+Tag:
+> Com leite
+
+Seção - Sobre a Receita:
+Combinação de café, leite e chocolate, resultando em uma bebida intensa e doce.
+
+( RENDIMENTO )[1 copo (240 ml)]
+
+--
+Equipamentos:
+
+Máquina de espresso
+Panela ou leiteira
+Jarra
+Colher
+Xícara
+
+--
+Ingredientes:
+
+30 ml de espresso
+200 ml de leite
+20 g de chocolate meio amargo
+Chantilly (opcional)
+
+--
+Modo de Preparo:
+
+Passo 1 - Prepare o espresso.
+Passo 2 - Derreta o chocolate no leite em fogo baixo.
+Passo 3 - Misture até ficar homogêneo.
+Passo 4 - Adicione o café e mexa.
+Passo 5 - Finalize com chantilly (opcional).
+
+--
+Dica do Barista:
+Prefira chocolate com maior teor de cacau para equilíbrio.
+
+---
+Macchiato
+
+Hero:
+( IMAGEM HERO )[Padrão]
+
+Tag:
+> Com leite
+
+Seção - Sobre a Receita:
+Espresso com pequena quantidade de leite, mantendo sabor forte e marcante.
+
+( RENDIMENTO )[1 xícara pequena (50–60 ml)]
+
+--
+Equipamentos:
+
+Máquina de espresso
+Vaporizador de leite
+Xícara pequena
+
+--
+Ingredientes:
+
+30 ml de espresso
+10–20 ml de leite vaporizado
+
+--
+Modo de Preparo:
+
+Passo 1 - Prepare o espresso.
+Passo 2 - Vaporize pequena quantidade de leite.
+Passo 3 - Adicione o leite sobre o café (apenas para “manchar”).
+
+--
+Dica do Barista:
+O leite deve complementar, não dominar o sabor.
+
+---
+
+-> GELADOS:
+
+---
+Iced Coffee
+
+Hero:
+( IMAGEM HERO )[Padrão]
+
+Tag:
+> Gelados
+
+Seção - Sobre a Receita:
+Café tradicional servido com gelo, ideal para dias quentes.
+
+( RENDIMENTO )[1 copo (300 ml)]
+
+--
+Equipamentos:
+
+Cafeteira ou coador
+Copo alto
+Colher
+
+--
+Ingredientes:
+
+150 ml de café coado forte
+150 g de gelo
+Açúcar ou xarope (opcional)
+
+--
+Modo de Preparo:
+
+Passo 1 - Prepare o café em concentração maior.
+Passo 2 - Encha o copo com gelo.
+Passo 3 - Despeje o café quente sobre o gelo.
+Passo 4 - Misture levemente.
+
+--
+Dica do Barista:
+Use gelo de café para evitar diluição.
+
+---
+Cold Brew
+
+Hero:
+( IMAGEM HERO )[Padrão]
+
+Tag:
+> Gelados
+
+Seção - Sobre a Receita:
+Café extraído a frio, com sabor suave e baixa acidez.
+
+( RENDIMENTO )[500 ml]
+
+--
+Equipamentos:
+
+Recipiente com tampa
+Filtro
+Peneira
+
+--
+Ingredientes:
+
+100 g de café moagem grossa
+500 ml de água fria
+
+--
+Modo de Preparo:
+
+Passo 1 - Misture café e água.
+Passo 2 - Deixe em infusão por 12–18 horas.
+Passo 3 - Coe lentamente.
+Passo 4 - Sirva gelado.
+
+--
+Dica do Barista:
+Armazene na geladeira por até 5 dias.
+
+---
+Iced Latte
+
+Hero:
+( IMAGEM HERO )[Padrão]
+
+Tag:
+> Gelados
+
+Seção - Sobre a Receita:
+Versão gelada do latte, com equilíbrio entre café e leite.
+
+( RENDIMENTO )[1 copo (300 ml)]
+
+--
+Equipamentos:
+
+Máquina de espresso
+Copo alto
+Colher
+
+--
+Ingredientes:
+
+30 ml de espresso
+200 ml de leite gelado
+100 g de gelo
+Xarope (opcional)
+
+--
+Modo de Preparo:
+
+Passo 1 - Encha o copo com gelo.
+Passo 2 - Adicione o leite gelado.
+Passo 3 - Prepare o espresso.
+Passo 4 - Despeje lentamente para criar camadas.
+
+--
+Dica do Barista:
+Despejar devagar melhora sabor e apresentação.
+
+---
+Shakerato
+
+Hero:
+( IMAGEM HERO )[Padrão]
+
+Tag:
+> Gelados
+
+Seção - Sobre a Receita:
+Espresso batido com gelo, resultando em bebida cremosa e refrescante.
+
+( RENDIMENTO )[1 copo pequeno (150 ml)]
+
+--
+Equipamentos:
+
+Coqueteleira
+Peneira
+Copo
+
+--
+Ingredientes:
+
+30 ml de espresso
+100 g de gelo
+10 ml de xarope simples (opcional)
+
+--
+Modo de Preparo:
+
+Passo 1 - Prepare o espresso.
+Passo 2 - Adicione ao shaker com gelo.
+Passo 3 - Agite por 15–20 segundos.
+Passo 4 - Coe e sirva.
+
+--
+Dica do Barista:
+Agitação forte cria espuma natural e textura ideal.
+
+---
+
+-> DOCES:
+
+---
+Affogato
+
+Hero:
+( IMAGEM HERO )[Padrão]
+
+Tag:
+> Doces
+
+Seção - Sobre a Receita:
+Sobremesa que combina café quente com sorvete gelado.
+
+( RENDIMENTO )[1 taça]
+
+--
+Equipamentos:
+
+Máquina de espresso
+Taça
+Colher
+
+--
+Ingredientes:
+
+1 bola de sorvete de baunilha
+30 ml de espresso
+Raspas de chocolate (opcional)
+
+--
+Modo de Preparo:
+
+Passo 1 - Coloque o sorvete na taça.
+Passo 2 - Prepare o espresso.
+Passo 3 - Despeje o café quente sobre o sorvete.
+
+--
+Dica do Barista:
+Sirva imediatamente para manter contraste de temperatura.
+
+---
+Café com Chocolate
+
+Hero:
+( IMAGEM HERO )[Padrão]
+
+Tag:
+> Doces
+
+Seção - Sobre a Receita:
+Combinação intensa de café com chocolate, criando uma bebida cremosa.
+
+( RENDIMENTO )[1 xícara (240 ml)]
+
+--
+Equipamentos:
+
+Panela ou leiteira
+Fogão
+Colher
+Xícara
+
+--
+Ingredientes:
+
+120 ml de café coado
+120 ml de leite
+20 g de chocolate meio amargo
+Açúcar (opcional)
+
+--
+Modo de Preparo:
+
+Passo 1 - Prepare o café.
+Passo 2 - Aqueça o leite com o chocolate em fogo baixo.
+Passo 3 - Misture até dissolver completamente.
+Passo 4 - Adicione o café e mexa.
+
+--
+Dica do Barista:
+Chocolate com maior teor de cacau equilibra melhor a bebida.
+
+---
+Café com Morango
+
+Hero:
+( IMAGEM HERO )[Padrão]
+
+Tag:
+> Doces
+
+Seção - Sobre a Receita:
+Bebida leve que combina café com notas frescas de morango.
+
+( RENDIMENTO )[1 copo (300 ml)]
+
+--
+Equipamentos:
+
+Liquidificador ou mixer
+Copo alto
+Faca
+
+--
+Ingredientes:
+
+150 ml de café gelado
+100 ml de leite
+3–4 morangos
+Gelo
+Xarope (opcional)
+
+--
+Modo de Preparo:
+
+Passo 1 - Bata o leite com os morangos.
+Passo 2 - Encha o copo com gelo.
+Passo 3 - Adicione a mistura.
+Passo 4 - Finalize com o café.
+
+--
+Dica do Barista:
+Use morangos frescos para melhor sabor.
+
+---
+Café com Caramelo
+
+Hero:
+( IMAGEM HERO )[Padrão]
+
+Tag:
+> Doces
+
+Seção - Sobre a Receita:
+Café suave com toque doce e marcante de caramelo.
+
+( RENDIMENTO )[1 xícara (240 ml)]
+
+--
+Equipamentos:
+
+Panela
+Colher
+Xícara
+
+--
+Ingredientes:
+
+120 ml de café
+120 ml de leite
+15 ml de calda de caramelo
+Chantilly (opcional)
+
+--
+Modo de Preparo:
+
+Passo 1 - Aqueça o leite.
+Passo 2 - Misture com o café.
+Passo 3 - Adicione o caramelo e mexa bem.
+Passo 4 - Finalize com chantilly (opcional).
+
+--
+Dica do Barista:
+Adicione o caramelo aos poucos para não mascarar o café.
+
+---
+
+-> ESPECIAIS
+
+---
+Café Turco
+
+Hero:
+( IMAGEM HERO )[Padrão]
+
+Tag:
+> Especiais
+
+Seção - Sobre a Receita:
+Método tradicional com moagem extremamente fina e preparo direto no fogo.
+
+( RENDIMENTO )[1 xícara (60 ml)]
+
+--
+Equipamentos:
+
+Ibrik (cezve)
+Colher
+Fogão
+
+--
+Ingredientes:
+
+7 g de café moagem ultra fina
+70 ml de água
+Açúcar (opcional)
+
+--
+Modo de Preparo:
+
+Passo 1 - Misture tudo ainda frio.
+Passo 2 - Leve ao fogo baixo.
+Passo 3 - Quando subir espuma, retire.
+Passo 4 - Repita 2–3 vezes sem ferver totalmente.
+
+--
+Dica do Barista:
+Não mexa após aquecer para preservar a textura.
+
+---
+Café Cubano
+
+Hero:
+( IMAGEM HERO )[Padrão]
+
+Tag:
+> Especiais
+
+Seção - Sobre a Receita:
+Espresso adoçado durante a extração, formando espuma doce.
+
+( RENDIMENTO )[1 xícara (60 ml)]
+
+--
+Equipamentos:
+
+Máquina de espresso ou cafeteira italiana
+Colher
+Xícara
+
+--
+Ingredientes:
+
+18 g de café
+10 g de açúcar
+Água
+
+--
+Modo de Preparo:
+
+Passo 1 - Inicie a extração.
+Passo 2 - Misture as primeiras gotas com açúcar.
+Passo 3 - Bata até formar espuma.
+Passo 4 - Adicione o restante do café.
+
+--
+Dica do Barista:
+A espuma (“espumita”) é essencial para a receita.
+
+---
+Café Marroquino
+
+Hero:
+( IMAGEM HERO )[Padrão]
+
+Tag:
+> Especiais
+
+Seção - Sobre a Receita:
+Café aromático com especiarias, criando perfil exótico.
+
+( RENDIMENTO )[1 xícara (200 ml)]
+
+--
+Equipamentos:
+
+Panela
+Colher
+Xícara
+
+--
+Ingredientes:
+
+150 ml de café
+50 ml de leite
+Canela (pitada)
+Noz-moscada (pitada)
+Açúcar (opcional)
+
+--
+Modo de Preparo:
+
+Passo 1 - Prepare o café.
+Passo 2 - Aqueça o leite com as especiarias.
+Passo 3 - Misture tudo.
+
+--
+Dica do Barista:
+Use especiarias frescas para intensificar o aroma.
+
+---
+Café Irlandês
+
+Hero:
+( IMAGEM HERO )[Padrão]
+
+Tag:
+> Especiais
+
+Seção - Sobre a Receita:
+Café quente com whisky e creme, criando uma bebida encorpada.
+
+( RENDIMENTO )[1 copo (200 ml)]
+
+--
+Equipamentos:
+
+Copo de vidro resistente
+Colher
+Panela
+
+--
+Ingredientes:
+
+120 ml de café
+30 ml de whisky
+20 ml de creme de leite
+10 g de açúcar mascavo
+
+--
+Modo de Preparo:
+
+Passo 1 - Aqueça o café.
+Passo 2 - Adicione açúcar e misture.
+Passo 3 - Acrescente o whisky.
+Passo 4 - Finalize com o creme por cima sem misturar.
+
+--
+Dica do Barista:
+Despeje o creme sobre uma colher para que ele flutue corretamente.
