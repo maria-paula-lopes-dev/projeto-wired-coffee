@@ -1,0 +1,88 @@
+APRENDA MAIS SOBRE CAFÉ PAGE
+Hero — Equipamentos
+
+Subtítulo (fixa):
+WIRED EQUIPAMENTOS
+
+Título:
+Equipamentos para preparar café
+
+---
+Primeira Seção - Curiosidade:
+
+--
+Texto:
+Do preparo mais simples ao mais preciso, os equipamentos certos fazem toda a diferença no sabor do café.
+
+---
+Segunda Seção - Principais Equipamentos:
+
+--
+Título:
+Principais Equipamentos
+
+---
+
+-> PRIMEIRO CARD:
+
+--
+Título:
+V60 (coador manual)
+
+--
+( ÍCONE )[Coador]
+
+--
+Texto:
+Método de preparo filtrado que destaca os aromas e a clareza do café.
+Ideal para quem busca um café mais leve, limpo e com maior percepção de sabor.
+
+---
+
+-> SEGUNDO CARD:
+
+--
+Título:
+Prensa Francesa
+
+--
+( ÍCONE )[Prensa]
+
+--
+Texto:
+Método por imersão que produz um café mais encorpado e intenso.
+Ideal para quem prefere bebidas mais fortes, com mais corpo e textura.
+
+---
+
+-> TERCEIRO CARD:
+
+--
+Título:
+Cafeteira Italiana (Moka)
+
+--
+( ÍCONE )[Moka]
+
+--
+Texto:
+Utiliza a pressão do vapor para extrair um café mais concentrado, semelhante ao espresso.
+Indicada para quem gosta de um café forte e marcante no dia a dia.
+
+---
+
+-> QUARTO CARD:
+
+--
+Título:
+Aeropress
+
+--
+( ÍCONE )[Aeropress]
+
+--
+Texto:
+Método versátil que combina pressão e imersão, permitindo diferentes formas de preparo.
+Perfeito para quem gosta de experimentar e ajustar o café ao próprio gosto.
+
+
