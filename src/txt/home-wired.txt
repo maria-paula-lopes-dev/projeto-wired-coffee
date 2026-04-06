@@ -1,0 +1,85 @@
+HOME PAGE
+Hero do Home
+
+Subtítulo ( FIXA ):
+DESCUBRA QUAL A SUA RECEITA FAVORITA
+
+--
+
+Título:
+Wired Coffee
+
+--
+
+Texto:
+Uma experiência pensada para quem quer ir além do café comum. Explore receitas, métodos e sabores que transformam o simples ato de fazer café em uma experiência completa.
+
+--
+
+CTA:
+( LINK )[Explorar Receitas]
+
+--
+
+( IMAGEM HERO )[Imagem]
+
+---
+
+Primeira Seção: Frase
+
+( TEXTO CENTER )[WIRED COFFEE, DIRETO PRA SUA CASA]
+
+--
+
+Texto Destaque:
+Cada xícara conta uma história — descubra a sua.
+
+---
+
+Segunda Seção: Sobre a Wired
+
+Subtítulo ( FIXA ):
+SOBRE A WIRED COFFEE
+
+--
+
+Título:
+Mais do que café
+
+--
+
+Texto:
+A Wired nasceu com um propósito simples: transformar a forma como você prepara e entende o café.
+Nosso objetivo é te guiar em uma jornada onde cada detalhe importa — do grão à xícara.
+Descubra o que torna a Wired única: o compromisso em conectar você a um café de qualidade, com receitas selecionadas cuidadosamente para elevar cada experiência.
+
+--
+
+CTA:
+( BOTÃO )[Ler]
+
+-
+
+Tempo de leitura:
+5 min
+
+---
+
+Footer
+
+[ IMAGEM/LOGO WIRED ]
+
+- 
+
+Título:
+Wired Coffee
+
+-
+
+Redes Sociais:
+[ instagram ] [ youtube ] [ e-mail ]
+
+- 
+
+Texto:
+Wired Coffee © — Experiência, sabor e conhecimento em cada preparo.

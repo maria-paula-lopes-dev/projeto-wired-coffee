@@ -1,0 +1,34 @@
+RECEITAS PAGE
+Hero de Receitas
+
+Subtítulo ( FIXA ):
+PREPARE SEUS INGREDIENTES
+
+- 
+
+Título:
+Receitas Wired
+
+Texto:
+Do café coado tradicional às bebidas mais elaboradas, explore receitas pensadas para você preparar em casa com qualidade e simplicidade.
+
+( IMAGEM HERO )[Imagem]
+
+---
+
+Primeira Seção: Cards
+
+Título Clicável:
+Receitas
+
+Filtro:
+
+Subsubtítulo:
+Filtrar por:
+
+( LINK PRA OUTRA PAGE )[Todos]
+( LINK PRA OUTRA PAGE )[Clássicos]
+( LINK PRA OUTRA PAGE )[Com Leite]
+( LINK PRA OUTRA PAGE )[Gelados]
+( LINK PRA OUTRA PAGE )[Doces]
+( LINK PRA OUTRA PAGE )[Especiais]

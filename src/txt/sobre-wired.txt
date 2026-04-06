@@ -1,0 +1,118 @@
+APRENDA MAIS SOBRE CAFÉ PAGE
+Hero Sobre a Wired
+
+( IMAGEM HERO )[Imagem]
+
+--
+Subtítulo ( FIXA ):
+SOBRE A WIRED
+
+--
+Título:
+Saiba Mais Sobre Nós
+
+--
+Texto:
+A Wired nasceu da vontade de criar algo próprio — unindo tecnologia, criatividade e a experiência do café em um único projeto.
+
+Ela é mais do que um projeto, uma ideia construída do zero.
+
+--
+Subtítulo ( FIXA ):
+MERGULHE NA HISTÓRIA DA WIRED
+
+--
+Texto:
+A Wired nasceu com um propósito simples: transformar a forma como você prepara e entende o café.
+Nosso objetivo é te guiar em uma jornada onde cada detalhe importa — do grão à xícara.
+Descubra o que torna a Wired única: o compromisso em conectar você a um café de qualidade, com receitas selecionadas cuidadosamente para elevar cada experiência.
+
+---
+Primeira Seção - A Origem:
+
+--
+Título:
+Saiba Mais Sobre Nós
+
+--
+Texto:
+A Wired surgiu quando comecei a buscar formas de praticar e evoluir no desenvolvimento com HTML e CSS. Mais do que apenas estudar, eu queria criar um projeto real — algo que tivesse identidade, conceito e propósito.
+
+O nome foi inspirado na série Alexa & Katie, onde existe uma cafeteria chamada Wired Coffee Shop. A partir dessa referência, comecei a imaginar como seria construir a minha própria versão.
+
+O design e a identidade visual também seguem essa inspiração, mas com adaptações e decisões próprias, transformando a ideia inicial em algo único.
+
+---
+Segunda Seção - O Projeto:
+
+--
+Título:
+Um projeto completo
+
+--
+Texto:
+
+A Wired não é apenas um site sobre café.
+Ela é um projeto criado para explorar todo o processo de desenvolvimento web — desde a ideia inicial até a construção final.
+
+Cada detalhe foi pensado com intenção:
+estrutura, layout, organização de conteúdo e experiência do usuário.
+
+A proposta é simples: criar algo funcional, bonito e coerente, aplicando na prática o que foi aprendido ao longo do processo.
+
+---
+Primeira Seção - O Conceito:
+
+--
+Título:
+Tecnologia e café
+
+--
+Texto:
+A Wired também nasce da união entre duas áreas que fazem parte do meu interesse: tecnologia e café.
+
+De um lado, o desenvolvimento — lógica, estrutura e criação.
+Do outro, o café — experiência, rotina e sensações.
+
+Essa combinação transforma o projeto em algo mais pessoal, onde cada parte reflete não só aprendizado técnico, mas também gosto e identidade.
+
+---
+Primeira Seção - Por que café?:
+
+--
+Título:
+A escolha do tema
+
+--
+Texto:
+O café foi escolhido por afinidade pessoal, mas também por tudo o que ele representa.
+
+É algo presente no dia a dia, simples e ao mesmo tempo cheio de possibilidades.
+Do preparo básico às receitas mais elaboradas, o café permite explorar variações, detalhes e experiências — assim como o próprio desenvolvimento web.
+
+---
+
+Primeira Seção - Objetivo:
+
+--
+Título:
+O objetivo da Wired
+
+--
+Texto:
+A Wired foi criada com três objetivos principais:
+
+Praticar desenvolvimento front-end com projetos reais
+Construir algo com identidade própria
+Unir tecnologia com um tema que faz parte do meu dia a dia
+
+Mais do que um projeto final, a Wired é parte de um processo contínuo de evolução.
+
+---
+
+Primeira Seção - Encerramento:
+
+--
+Texto:
+Este projeto representa mais do que código.
+É a união entre aprendizado, criação e algo que faz parte da minha rotina.

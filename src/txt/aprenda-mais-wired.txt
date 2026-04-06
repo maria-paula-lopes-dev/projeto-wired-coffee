@@ -1,0 +1,47 @@
+APRENDA MAIS SOBRE CAFÉ PAGE
+Hero de Aprenda Mais Sobre Café
+
+( IMAGEM HERO )[Imagem]
+
+Subtítulo ( FIXA ):
+BEM-VINDO(A) AO UNIVERSO DA CAFEÍNA
+
+--
+
+Título:
+Aprenda sobre cafés.
+
+--
+
+Texto:
+Pegue sua xícara e mergulhe em conteúdos que vão transformar seu conhecimento sobre café.
+
+---
+
+Cards Principais:
+
+( PRIMEIRO CARD )[Origem do Café]
+
+--
+
+Texto:
+Conheça a origem do café, desde o cultivo até chegar à sua xícara.
+
+---
+
+( SEGUNDO CARD )[Níveis de Torra]
+
+--
+
+Texto:
+Entenda como a torra influencia sabor, aroma e intensidade do café.
+
+---
+
+( SEGUNDO CARD )[Equipamentos]
+
+--
+
+Texto:
+Descubra as ferramentas essenciais para preparar um café de qualidade.
+

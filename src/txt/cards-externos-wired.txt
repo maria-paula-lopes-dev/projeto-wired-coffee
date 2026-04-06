@@ -1,0 +1,340 @@
+CARDS DE RECEITAS
+Cards Externos
+
+-> CLÁSSICOS:
+
+---
+Espresso
+
+( ÍCONE )[Ícone Clássico]
+
+
+Título:
+Espresso
+
+
+Descrição:
+Intenso & Encorpado
+
+
+Tempo:
+3 Mins
+
+---
+Café Coado
+
+( ÍCONE )[Ícone Clássico]
+
+Título:
+Café Coado
+
+
+Descrição:
+Leve & Aromático
+
+
+Tempo:
+7 Mins
+
+---
+Café com Leite
+
+( ÍCONE )[Ícone Clássico]
+
+Título:
+Café com Leite
+
+
+Descrição:
+Suave & Equilibrado
+
+
+Tempo:
+8 Mins
+
+---
+Café Americano
+
+( ÍCONE )[Ícone Clássico]
+
+Título:
+Café Americano
+
+
+Descrição:
+Suave
+
+
+Tempo:
+5 Mins
+
+---
+
+-> COM LEITE:
+
+---
+Cappuccino
+
+( ÍCONE )[Ícone Café com Leite]
+
+Título:
+Cappuccino
+
+
+Descrição:
+Cremoso
+
+
+Tempo:
+10 Mins
+
+---
+Latte
+
+( ÍCONE )[Ícone Café com Leite]
+
+Título:
+Latte
+
+
+Descrição:
+Suave & Aveludado
+
+
+Tempo:
+10 Mins
+
+---
+Mocha
+
+( ÍCONE )[Ícone Café com Leite]
+
+Título:
+Mocha
+
+
+Descrição:
+Doce & Encorpado
+
+
+Tempo:
+12 Mins
+
+---
+Macchiato
+
+( ÍCONE )[Ícone Café com Leite]
+
+Título:
+Macchiato
+
+
+Descrição:
+Intenso & Cremoso
+
+
+Tempo:
+5 Mins
+
+---
+
+-> GELADOS
+
+---
+Iced Coffee
+
+( ÍCONE )[Ícone Gelados]
+
+Título:
+Iced Coffee
+
+
+Descrição:
+Leve & Refrescante
+
+
+Tempo:
+7 Mins
+
+---
+Cold Brew
+
+( ÍCONE )[Ícone Gelados]
+
+Título:
+Cold Brew
+
+
+Descrição:
+Suave & Menos Ácido
+
+
+Tempo:
+12 Hrs
+
+---
+Iced Latte
+
+( ÍCONE )[Ícone Gelados]
+
+Título:
+Iced Latte
+
+
+Descrição:
+Gelado & Cremoso
+
+
+Tempo:
+8 Mins
+
+---
+Shakerato
+
+( ÍCONE )[Ícone Gelados]
+
+Título:
+Shakerato
+
+
+Descrição:
+Gelado & Espumoso
+
+
+Tempo:
+6 Mins
+
+---
+
+-> DOCES:
+
+---
+Affogato
+
+( ÍCONE )[Ícone Doces]
+
+Título:
+Affogato
+
+
+Descrição:
+Quente & Gelada
+
+
+Tempo:
+7 Mins
+
+---
+Café com Chocolate
+
+( ÍCONE )[Ícone Doces]
+
+Título:
+Café com Chocolate
+
+
+Descrição:
+Doce & Encorpado
+
+
+Tempo:
+10 Mins
+
+---
+Café com Morango
+
+( ÍCONE )[Ícone Doces]
+
+Título:
+Café com Chocolate
+
+
+Descrição:
+Leve & Frutado
+
+
+Tempo:
+12 Mins
+
+---
+Café com Caramelo
+
+( ÍCONE )[Ícone Doces]
+
+Título:
+Café com Caramelo
+
+
+Descrição:
+Doce & Aromático
+
+
+Tempo:
+10 Mins
+---
+
+-> ESPECIAIS:
+
+---
+Café Turco
+
+( ÍCONE )[Ícone Especiais]
+
+Título:
+Café Turco
+
+
+Descrição:
+Forte & Tradicional
+
+
+Tempo:
+8 Mins
+
+---
+Café Cubano
+
+( ÍCONE )[Ícone Especiais]
+
+Título:
+Café Cubano
+
+
+Descrição:
+Intenso
+
+
+Tempo:
+6 Mins
+
+---
+Café Marroquino
+
+( ÍCONE )[Ícone Especiais]
+
+Título:
+Café Marroquino
+
+
+Descrição:
+Exótico & Aromático
+
+
+Tempo:
+12 Mins
+
+---
+Café Irlandês
+
+( ÍCONE )[Ícone Especiais]
+
+Título:
+Café Irlandês
+
+
+Descrição:
+Quente & Encorpado
+
+
+Tempo:
+12 Mins
