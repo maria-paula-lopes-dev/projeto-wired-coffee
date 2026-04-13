@@ -1,1 +1,27 @@
-/*Define estilos de texto padrão.*/
+@charset "UTF-8";
+
+/* TIPOGRAFIA - WIRED COFFEE */
+
+/* Importação da Montserrat do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+/* Geometry Soft (local) */
+@font-face {
+    font-family: 'Geometry Soft Pro';
+    src: url('../../assets/fonts/Geometry_Soft_Pro-Bold_N.otf') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Nochalance (Local) */
+@font-face {
+    font-family: 'Nochalance';
+    src: url('../../assets/fonts/Nonchalance\ Regular.otf') format('woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Nochalance';
+    src: url('../../assets/fonts/Nonchalance\ Bold.otf') format('woff2');
+    font-weight: 700;
+}
