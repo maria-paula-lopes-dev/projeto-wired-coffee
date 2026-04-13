@@ -1,6 +1,64 @@
+@charset "UTF-8";
 /*VARIABLES - WIRED COFFEE*/
 
 /*Define variáveis globais acessíveis em todo o projeto*/
 :root{
-    
+    /*PALETA*/
+    --color-1: #f5ebdd; /* Base clara (fundo principal) */
+    --color-2: #d6bd98; /* Destaque (seções) */
+    --color-3: #2e0d14; /* Forte (hero / footer) */
+    --color-4: #1f3d2b; /* Ação principal */
+    --color-5: #3a5f7d; /* Ação secundária */
+
+    /*FUNDO*/
+    --bg-page: var(--color-1);
+    --bg-section-highlight: var(--color-2);
+    --bg-strong: var(--color-3);
+
+    /*AÇÕES*/
+    --color-action: var(--color-4);
+    --color-action-secondary: var(--color-5);
+
+    /*TEXTOS*/
+    --color-text: #2a1b1a; /* Em fundo claro */
+    --color-text-inverse: #f4efe7; /* Em fundo escuro */
+
+    /*TIPOGRAFIAS*/
+    --font-text: 'Montserrat', sans-serif; /* Texto padrão */
+    --font-title: 'Geometry Soft Pro', sans-serif; /* Títulos */
+    --font-detail: 'Nochalance', monospace; /* Detalhes */
+
+    /*TAMANHOS DE TEXTO*/
+    --text-small: 0.875em; /* 14px → detalhes */
+    --text-normal: 1em; /* 16px → padrão */
+    --text-large: 1.25em; /* 20px → destaque */
+
+    --title-medium: 2em; /* 32px → títulos */
+    --title-large: 2.5em; /* 40px → título principal */
+
+    /*TEXTO DETALHE*/
+    --text-detail-transform: uppercase; /* CAPS */
+    --text-detail-spacing: 0.05em; /* Espaçamento entre letras */
+
+    /*ESPAÇAMENTO*/
+    --space-small: 8px; /* espaço pequeno */
+    --space-medium: 16px; /* espaço padrão */
+    --space-large: 32px; /* espaço grande */
+
+    /*BORDAS*/
+    --border: 1px solid rgba(0, 0, 0, 0.1); /* Borda padrão */
+
+    /*ARREDONDAMENTO*/
+    --radius-small: 8px;
+    --radius-medium: 16px;
+    --radius-large: 24px;
+
+    /*SOMBRA E CAIXA*/
+    --shadow-soft: 0 2px 8px rgba(0, 0, 0, 0.05); /* leve */
+    --shadow-medium: 0 4px 12px rgba(0, 0, 0, 0.08); /* padrão */
+    --shadow-strong: 0 8px 24px rgba(0, 0, 0, 0.12); /* destaque */
+
+    /*SOMBRA DE TEXTO*/
+    --text-shadow-soft: 0 1px 2px rgba(0, 0, 0, 0.2); /* leve */
+    --text-shadow-strong: 0 3px 6px rgba(0, 0, 0, 0.3); /* forte */
 }
