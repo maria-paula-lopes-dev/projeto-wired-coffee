@@ -48,6 +48,10 @@ Mais do que café
 
 --
 
+( IMAGEM )[Imagem]
+
+--
+
 Texto:
 A Wired nasceu com um propósito simples: transformar a forma como você prepara e entende o café.
 Nosso objetivo é te guiar em uma jornada onde cada detalhe importa — do grão à xícara.
@@ -73,11 +77,6 @@ Footer
 
 Título:
 Wired Coffee
-
--
-
-Redes Sociais:
-[ instagram ] [ youtube ] [ e-mail ]
 
 - 
 
