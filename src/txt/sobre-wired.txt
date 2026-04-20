@@ -12,10 +12,7 @@ Título:
 Saiba Mais Sobre Nós
 
 --
-Texto:
-A Wired nasceu da vontade de criar algo próprio — unindo tecnologia, criatividade e a experiência do café em um único projeto.
-
-Ela é mais do que um projeto, uma ideia construída do zero.
+Seção Destaque:
 
 --
 Subtítulo ( FIXA ):
@@ -32,7 +29,7 @@ Primeira Seção - A Origem:
 
 --
 Título:
-Saiba Mais Sobre Nós
+A HISTÓRIA DA WIRED
 
 --
 Texto:
