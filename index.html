@@ -10,13 +10,13 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <!-- FAVICON -->
-     <link rel="shortcut icon" href="src/assets/images/favicon/favicon-wired.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="src/assets/images/favicon/favicon-wired.svg" type="image/x-icon">
 
     <!-- CSS -->
-     <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="stylesheet" href="src/styles/main.css">
 
      <!-- JS -->
-      <script src="src/js/main.js"></script>
+    <script src="src/js/main.js"></script>
 </head>
 <body>
     <!-- HEADER -->
@@ -48,13 +48,25 @@
             </ul>
         </nav><!-- MENU -->
 
-        <!-- HAMBURGER -->
+        <!-- BOTÃO TOGGLE DO MENU (controle de estado via JS) -->
         <button class="header__toggle" aria-label="Abrir menu">
-            <i class="fa-solid fa-bars-staggered"></i>
+            <!-- ÍCONE: estado FECHADO (hamburger) -->
+            <i class="fa-solid fa-bars-staggered header__icon header__icon--open"></i>
+
+            <!-- ÍCONE: estado ABERTO (close) -->
+            <i class="fa-solid fa-xmark header__icon header__icon--close"></i>
         </button>
-        <!-- HAMBURGER -->
+        <!-- BOTÃO TOGGLE DO MENU -->
     
     </header><!-- HEADER -->
     
 </body>
 </html>
+
+<!-- CLASSE DE ESTADO
+    - são classes utilitárias adicionais aplicadas dinamecamente aos elementos para representar e estilizar diferentes condições e comportamentos
+    - como 'ativo', 'oculto' ou 'erro'
+    - complementam o design base e permitem mudanças visuais controladas por js sem depender de pseudo-classes como :hover
+    - modificam o estilo do elemento baseado no seu 'estado' atual na interface
+    - diferem de classes estruturais como '.botao', '.card' porque são temporárias e toffladas por js
+-->

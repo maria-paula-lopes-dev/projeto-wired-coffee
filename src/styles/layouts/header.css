@@ -3,12 +3,11 @@
 /* HEADER */
 .header{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
     height: 80px;
-    padding: 15x;
+    padding: 0 15x;
 
     background-color: var(--bg-page);
     box-shadow: var(--shadow-medium);
@@ -16,20 +15,18 @@
 
 /* CONTROLE DA IMAGEM DE LOGO */
 .header__logo img{
-    display: block;
+    display: block; /* Remove espaço extra abaixo da imagem */
     max-width: 120px;
-    height: auto;
+    height: auto; /* Mantém as proporções */
 }
 
 /* MENU HAMBURGER */
 .header__nav{
-    
 }
 
 /* LISTA DO MENU */
 .header__menu{
     display: flex;
-    flex-direction: row;
     gap: 25px;
 }
 
@@ -44,7 +41,66 @@
     color: var(--color-text);
 }
 
-/* BUTTON MENU */
+/* BOTÃO HAMBURGER */
 .header__toggle{
-    /*display: none;*/
+    display: none; /* Escondido no desktop */
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* ÍCONES DENTRO DO BUTTON */
+.header__icon{
+    font-size: 24px;
+}
+
+/* CSS Estado. Estado padrão pra mostrar o hamburger e esconder o X */
+.header__icon--close{ 
+    display: none;
+}
+
+/* NAV NO MOBILE */
+@media (max-width: 600px){
+
+    /* Menu escondido por padrão */
+    .header__nav{
+        position: absolute; /* Sai de fluxo */
+        top: 80px; /* Abaixo do header */
+        left: 0;
+
+        width: 100%; /* Ocupa toda a página */
+        background: var(--bg-page);
+
+        /* Estado inicial = fechado */
+        height: 0;
+        overflow: hidden; /* Esconde conteúdo */
+
+        visibility: hidden; /* Impede interação */
+        transition: 0.4s ease-in-out;
+    }
+
+    /* Lista vira coluna no mobile */
+    .header__menu{
+        flex-direction: column;
+        background: var(--bg-page);
+    }
+
+    /* LINKS */
+    .header__links{
+        display: block;
+        padding: 1em;
+        border-bottom: 2px solid rgba(0, 0, 0, .05);
+    }
+
+    /* Mostrar o botão hamburger quando a tela diminui */
+    .header__toggle{
+        display: block;
+    }
+
+    /* ESTADO DE ABERTURA DO MENU */
+    /* Se o header tiver .header--open, o menu aparece (acionado pelo JS) */
+    .header--open .header__nav{
+        height: calc(100vh - 80px); /* Ocupa a tela toda */
+        visibility: visible; /* Aparece */
+    }
 }
