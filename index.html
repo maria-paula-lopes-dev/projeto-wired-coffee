@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wired Coffee</title>
+    <meta name="description" content="Aprenda sobre café, receitas, métodos e equipamentos.">
+
+    <!-- FAVICON -->
+     <link rel="shortcut icon" href="src/assets/images/favicon/favicon-wired.svg" type="image/x-icon">
+
+    <!-- CSS -->
+     <link rel="stylesheet" href="src/styles/main.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header"> <!-- BLOCK -->
+        <!-- LOGO MENU -->
+        <a href="/" class="header__logo"> <!-- Normalmente a logo é um atalho pra Home -->
+            <picture>
+                <!-- A imagem da logo vai denpender do tamanho da tela. Se for maior que 768px, ele adiciona a imagem pra desktop, senão ele manté, a pra mobile (favicon) -->
+                <source media="(min-width: 768px)" srcset="src/assets/images/logo/logo-wired-pc.png">
+                <!-- Imagem MB -->
+                 <img src="src/assets/images/favicon/favicon-wired.svg" alt="Logo Wired">
+            </picture>
+        </a><!-- LOGO MENU -->
+
+        <!-- MENU  -->
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li class="header__itens">
+                    <a href="" class="header__links">Home</a>
+                </li>
+
+                <li class="header__itens">
+                    <a href="" class="header__links">Receitas</a>
+                </li>
+
+                <li class="header__itens">
+                    <a href="" class="header__links">Sobre Café</a>
+                </li>
+            </ul>
+        </nav><!-- MENU -->
+
+        <!-- HAMBURGER -->
+        <button class="header__toggle" aria-label="Abrir menu">
+            <img src="src/assets/icons/base/menu-wired.svg" alt="Menu Open" class="icon-menu"> <!-- ABERTO -->
+
+            <img src="src/assets/icons/base/out-wired.svg" alt="Menu Close" class="icon-close"> <!-- FECHADO -->
+        </button>
+        <!-- HAMBURGER -->
+        
+    </header><!-- HEADER -->
+    
+</body>
+</html>
