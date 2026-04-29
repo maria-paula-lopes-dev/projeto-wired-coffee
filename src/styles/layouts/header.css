@@ -1,1 +1,90 @@
-/*Estilo do topo (menu, navegação)*/
+/* ESTILO PADRÃO DO CABEÇALHO */
+
+/* HEADER */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 80px;
+    padding: 15x;
+
+    background-color: var(--bg-page);
+    box-shadow: var(--shadow-medium);
+}
+
+/* CONTROLE DA IMAGEM DE LOGO */
+.header__logo img{
+    display: block;
+    max-width: 120px;
+    height: auto;
+}
+
+/* MENU HAMBURGER */
+.header__nav{
+    
+}
+
+/* LISTA DO MENU */
+.header__menu{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+/* LINKS DO MENU */
+.header__links{
+    /* Aumentando a área de contato */
+    display: block;
+    padding: 15px;
+
+    font-family: var(--font-text);
+    font-size: var(--text-normal);
+    color: var(--color-text);
+}
+
+/* BUTTON MENU */
+.header__toggle{
+    display: none;
+}
+
+/* !MEDIA QUERIE PRA QUE O MENU APAREÇA */
+@media (max-width: 600px){ /*Abaixo disso apçique isso*/
+
+    /* MOSTRAR O BOTÃO */
+    .header__toggle{
+        display: block;
+    }
+
+    /* ESCONDER MENU DK */
+    .header__menu{
+        /*display: none;*/
+        display: block;
+        overflow-y: hidden; /*Esconde quando ultrapassa (não tem o tamanho total)*/
+
+        position: absolute; /*Por cima de qualquer elemento que estiver na tela*/
+        width: 100%;
+        top: 80px;
+        right: 0px;
+        background: var(--bg-page);
+
+        height: 0px;
+        transition: .6s ease-in-out;
+        z-index: 1000;
+        visibility: hidden; /*Começa escondido*/
+    }
+
+    /* ESTILIZAÇÃO */
+    .header__links{
+        margin: 0 16px;
+        padding: 16px 0;
+        border-bottom: 2px solid rgba(0, 0, 0, .05);
+    }
+
+    /*Quando o Nav tiver a classe 'active'*/
+    .header__nav.active .header__menu{
+        height: calc(100vh - 80px);
+        visibility: visible;
+    }
+}
