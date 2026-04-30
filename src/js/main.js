@@ -1,13 +1,13 @@
-// 1. O header será usado como controle de estado
-const header = document.querySelector('.header');
+// Selecionando elementos
+const toggle = document.querySelector('.header__toggle');
+const nav = document.querySelector('.header__nav');
 
-// 2. Pega o botão do menu (hamburger / X)
-const button = document.querySelector('.header__toggle');
+// Evento de clique
+toggle.addEventListener('click', () => {
 
-// 3. Cria o evento de clique 
-button.addEventListener('click', () => {
-    // 4. Toggle = liga/desliga classe
-    // Se não existir header--open: -> adiciona (abre menu)
-    // Se já existir: -> remove (fecha menu)
-    header.classList.toggle('header--open');
+    // Alterna o estado do menu
+    nav.classList.toggle('is-active');
+
+    // Alterna o estado do botão (troca ícone)
+    toggle.classList.toggle('is-active');
 });

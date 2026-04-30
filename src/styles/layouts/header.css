@@ -7,10 +7,16 @@
     align-items: center;
 
     height: 80px;
-    padding: 0 15x;
+
+    padding: 0 20px;
 
     background-color: var(--bg-page);
     box-shadow: var(--shadow-medium);
+
+    /* MENU FIXO */
+    position: sticky;
+    top: 0; /* Grude no topo */
+    z-index: 1000;
 }
 
 /* CONTROLE DA IMAGEM DE LOGO */
@@ -20,87 +26,178 @@
     height: auto; /* Mantém as proporções */
 }
 
-/* MENU HAMBURGER */
+/* MENU HAMBURGER: ocupa a tela toda, mas começa escondido */
 .header__nav{
+    position: fixed; /* Preso à viewport e não ao header e é ignorado pelo fluxo do layout */
+    top: 80px; /* Abaixo do header */
+    left: 0;
+
+    width: 100%; /* Largura total */
+    height: calc(100vh - 80px); /* Toda a tela abaixo do header */
+
+    background-color: var(--bg-page);
+
+    /* Escondido inicialmente. Como o menu fica escondido e como ele anima ao abrir */
+    transform: translateY(-100%); /* Move o elemento 100% da própria altura para cima -> sai da tela (esconde acima) -> Melhor do que usar display: none; pois aqui permite animações*/
+
+    /* O comando acima fazia o meu 'sumir' visualmente, mas continuava existindo no DOM */
+    opacity: 0; /* Não aparece, mas ainda existe - ainda bloqueia o clique */
+
+    /* 
+    Controla se um elemento pode ou não receber interação de mouse (clik/hover...) - permite se um elemento é alvo de uma interação ou se deve ser ignorado pelo sistema de eventos - none define que o elemento nunca será alvo de eventos (o evento atravessa o elemento, permitindo que haja click em itens que estão posicionados por baixo dele, como se o elemento de cima nem estivesse lá) 
+    */
+    pointer-events: none; 
+
+    transition: 0.3s ease;
+
+    z-index: 999; /* Pois o header fica por cima e o menu em baixo */
+
+}
+
+/* ESTADO DO MENU */
+/* Quando ativo (menu aberto) */
+.header__nav.is-active{
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
 }
 
 /* LISTA DO MENU */
 .header__menu{
     display: flex;
-    gap: 25px;
+    flex-direction: column;
+
+    width: 100%;
 }
 
-/* LINKS DO MENU */
+/* CADA ÍTEM DE LISTA */
+.header__itens{
+    width: 100%;
+}
+
+/* LINKS DO MENU NO MOBILE*/
 .header__links{
     /* Aumentando a área de contato */
     display: block;
-    padding: 15px;
+    padding: 20px;
 
     font-family: var(--font-text);
     font-size: var(--text-normal);
     color: var(--color-text);
+
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+
+    transition: color 0.3s; /* Transição de texto */
 }
 
-/* BOTÃO HAMBURGER */
+/* EFEITO SIMPLES DE HOVER PRO MOBILE */
+.header__links:hover{
+    font-weight: bold;
+    color: var(--color-action);
+    background-color: var(--bg-section-highlight);
+}
+
+/* BOTÃO HAMBURGER: visível no mobile */
 .header__toggle{
-    display: none; /* Escondido no desktop */
     border: none;
     background: none;
     cursor: pointer;
 }
 
-/* ÍCONES DENTRO DO BUTTON */
+/* ÍCONES DO BOTÃO */
 .header__icon{
-    font-size: 24px;
+    font-size: 25px;
+    color: var(--color-text);
 }
 
-/* CSS Estado. Estado padrão pra mostrar o hamburger e esconder o X */
-.header__icon--close{ 
+/* Esconder o X por padrão */
+.header__toggle .fa-xmark{
     display: none;
 }
 
-/* NAV NO MOBILE */
-@media (max-width: 600px){
+/* Quando o menu estiver ativo, o hamburger esconde */
+.header__toggle.is-active .fa-bars-staggered{
+    display: none;
+}
 
-    /* Menu escondido por padrão */
+/* Quando estiver ativado, o hamburger esconde e o close aparece */
+.header__toggle.is-active .fa-xmark{
+    display: block;
+}
+
+
+/* MEDIA QUERY PRA DESKTOP (> 768px) */
+@media (min-width: 768px){
+
+    /* Nav volta ao fluxo normal (reset do mobile) -> No mobile ele se transformou em overlay fixo animado - No desktop ele volta a ser um menu em linhas normal */
     .header__nav{
-        position: absolute; /* Sai de fluxo */
-        top: 80px; /* Abaixo do header */
-        left: 0;
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
 
-        width: 100%; /* Ocupa toda a página */
-        background: var(--bg-page);
+        position: static; /* Volta ao fluxo */
+        transform: none; /* Remove o translateY pra que ele volte pra tela */ 
 
-        /* Estado inicial = fechado */
-        height: 0;
-        overflow: hidden; /* Esconde conteúdo */
+        opacity: 1; /* Reset */
+        pointer-events: auto;
 
-        visibility: hidden; /* Impede interação */
-        transition: 0.4s ease-in-out;
+        width: auto; /* Remove o 100% - volta ao tamanho naturarl */
+        height: auto; /* Remove o 100vh - passa a depender do conteúdo */
     }
 
-    /* Lista vira coluna no mobile */
+    /* Menu na horizontal */
     .header__menu{
-        flex-direction: column;
-        background: var(--bg-page);
+        flex-direction: row;
+        gap: 20px;
+
+        width: fit-content; /* Trava no tamanho do conteúdo -> menu fica exatament do tamanho do conteúdo, não cresce mais, pois antes ele expandia dentro do nav */
     }
 
-    /* LINKS */
+    /* LINKS PRA DESKTOP */
     .header__links{
-        display: block;
-        padding: 1em;
-        border-bottom: 2px solid rgba(0, 0, 0, .05);
+        position: relative;
+
+        white-space: nowrap; /* Impede quebra de texto */
+        
+        padding: 8px;
+        border: none;
     }
 
-    /* Mostrar o botão hamburger quando a tela diminui */
+    .header__links:hover{
+        font-weight: normal;
+        background: none;
+    }
+
+    /* Criando linha do hover */
+    .header__links::after{
+        content: " ";
+        position: absolute;
+        left: 0; /* Inicio do link */
+        bottom: 0; /* Na base do link */
+
+        width: 0%;
+        height: 2px;
+
+        background-color: var(--color-action);
+
+        transition: 0.5s ease-in-out;
+    }
+
+    .header__links:hover::after{
+        width: 100%;
+    }
+
+    /* Esconde o botão menu */
     .header__toggle{
-        display: block;
-    }
-
-    /* ESTADO DE ABERTURA DO MENU */
-    /* Se o header tiver .header--open, o menu aparece (acionado pelo JS) */
-    .header--open .header__nav{
-        height: calc(100vh - 80px); /* Ocupa a tela toda */
-        visibility: visible; /* Aparece */
+        display: none;
     }
 }
+
+/* -EXPLICAÇÃO PESSOAL- 
+    - O layout do menu é estruturado em dois containers flex (.header & .header__menu)
+    - Sem os ajustes, o .header distribuia os filhos (.header__logo & .header__nav)
+    - .header__nav não tinha controle de crescimento, ele ocupava apenas o tamanho relativo ao conteúdo
+    - .header__menu era flex: podia enconlher ou crescer -> quebrava linha no último link
+    - Com flex: 1 ele fica totalmente flexível dentro do .header
+    - Com o display flex no .header__nav, ele vira um container flex também e o menu ocupa a direita 
+*/
