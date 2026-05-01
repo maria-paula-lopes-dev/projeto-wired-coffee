@@ -23,7 +23,13 @@
 .header__logo img{
     display: block; /* Remove espaço extra abaixo da imagem */
     max-width: 120px;
-    height: auto; /* Mantém as proporções */
+    height: auto; /* Mantém as proporções pra evitar distorções */
+
+    transition: transform 0.5s ease-in-out;
+}
+
+.header__logo:hover{
+    transform: scale(1.1); /* 110% de aumento */
 }
 
 /* MENU HAMBURGER: ocupa a tela toda, mas começa escondido */
@@ -41,7 +47,7 @@
     transform: translateY(-100%); /* Move o elemento 100% da própria altura para cima -> sai da tela (esconde acima) -> Melhor do que usar display: none; pois aqui permite animações*/
 
     /* O comando acima fazia o meu 'sumir' visualmente, mas continuava existindo no DOM */
-    opacity: 0; /* Não aparece, mas ainda existe - ainda bloqueia o clique */
+    opacity: 0; /* Não aparece, mas ainda existe */
 
     /* 
     Controla se um elemento pode ou não receber interação de mouse (clik/hover...) - permite se um elemento é alvo de uma interação ou se deve ser ignorado pelo sistema de eventos - none define que o elemento nunca será alvo de eventos (o evento atravessa o elemento, permitindo que haja click em itens que estão posicionados por baixo dele, como se o elemento de cima nem estivesse lá) 
@@ -87,7 +93,7 @@
 
     border-bottom: 1px solid rgba(0,0,0,0.05);
 
-    transition: color 0.3s; /* Transição de texto */
+    transition: 0.3s ease-in-out; /* Transição de texto */
 }
 
 /* EFEITO SIMPLES DE HOVER PRO MOBILE */
@@ -102,6 +108,12 @@
     border: none;
     background: none;
     cursor: pointer;
+
+    transition: transform 0.1s ease-in-out;
+}
+
+.header__toggle:hover{
+    transform: scale(1.1);
 }
 
 /* ÍCONES DO BOTÃO */
