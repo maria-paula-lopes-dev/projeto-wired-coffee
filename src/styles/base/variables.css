@@ -38,7 +38,8 @@
 
     /*TEXTO DETALHE*/
     --text-detail-transform: uppercase; /* CAPS */
-    --text-detail-spacing: 0.05em; /* Espaçamento entre letras */
+    --text-eyebrow: 14px; /* Tamanho da fonte */
+    --text-detail-spacing: 0.15em; /* Espaçamento entre letras */
 
     /*ESPAÇAMENTO*/
     --space-small: 8px; /* espaço pequeno */

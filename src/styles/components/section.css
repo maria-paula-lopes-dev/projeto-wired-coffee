@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* PARA AS DIFERENTES TIPOS DE CLASSES - WIRED */
+
+.section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* VARIANTES DE FUNDO DE SEÇÃO */
+/* Escuro */
+.section--dark{
+    color: var(--color-text-inverse);
+    background-color: var(--bg-strong);
+}
+
+/* Curiosidades e Frases */
+.section--highlight{
+    background-color: var(--bg-section-highlight);
+}
+
+/* Com Imagem de Fundo */
+/* Como se fosse um palco que recebe outros elementos (imagem e textos no caso) */
+.section--bg-image{
+    position: relative; /* Referência pra possíveis elementos filhos 'grudarem nele' */
+    background-repeat: no-repeat;
+    background-size: cover; /* Preenche tudo */
+    background-position: center;
+    overflow: hidden;
+}

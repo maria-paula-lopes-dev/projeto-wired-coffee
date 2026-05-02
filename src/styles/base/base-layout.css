@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* PARA AS CLASSES GLOBAIS E REUTILIZÁVEIS - WIRED */
+
+/* CONTAINER GLOBAL */
+/* Serve pra limitar a largura do conteúdo em telas grandes e o contraste nas borgas do celular */
+.container{
+    width: 100%; /* Ocupa todo o mobile */
+    max-width: 1200px; /* No Desktop, o conteúdo para de crescer */
+
+    /* Centraliza o bloco */
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Margin de segurança interna */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* === UTILITÁRIOS === */
+
+/* ELEMENTOS DE CONTAINERS CENTRALIZADOS */
+.u-container-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* APLICADAS EM SECTIONS */
+/* Para seções com textos alinhados à esquerda */
+.u-text-left{
+    text-align: left;
+}
+
+/* Para seções com textos alinhados ao centro */
+.u-text-center{
+    text-align: center;
+}
+
+/* COR DE TEXTOS */
+.u-text-color{
+    color: var(--color-text);
+}
+
+.u-text-inverse{
+    color: var(--color-text-inverse);
+}
