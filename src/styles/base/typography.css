@@ -25,3 +25,18 @@
     src: url('../../assets/fonts/Nonchalance\ Bold.otf') format('woff2');
     font-weight: 700;
 }
+
+/* === DEFININDO AS CONFIGURAÇÕES PADRÃO DOS TEXTOS DAS PÁGINAS === */
+
+/* BODY */
+body{
+    font-family: var(--font-text);
+    font-size: var(--text-normal);
+    line-height: 1.5;
+}
+
+/* TÍTULOS */
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--font-title);
+    line-height: 1.2;
+}
