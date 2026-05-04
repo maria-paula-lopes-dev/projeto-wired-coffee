@@ -1,1 +1,36 @@
 /*Configurações padrão dos links*/
+
+/* LINKS COM PADRÕES DE BOTÕES */
+.link--btn{ /* Elementos inline padrão - ignoram o margin-top / bottom */
+    display: inline-block;
+
+    width: 200px;
+
+    margin-top: 20px;
+    padding: 12px;
+
+    border-radius: var(--radius-large);
+
+    background-color: var(--color-action);
+
+    text-align: center;
+    color: var(--color-text-inverse);
+
+    transition: transform 0.3s ease-in-out;
+}
+
+@media (min-width: 768px){
+
+    .link--btn{
+        background: linear-gradient(
+            to left,
+            var(--color-action),
+            #3f7b57
+        );
+    }
+    
+    .link--btn:hover{
+        font-weight: bold;
+        transform: scale(1.05);
+    }
+}

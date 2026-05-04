@@ -41,6 +41,11 @@ p, li, span{
     color: var(--color-text);
 }
 
+a{
+    font-family: var(--font-text);
+    font-size: var(--text-normal);
+}
+
 /* TAMANHOS DE FONTES */
 h1{ font-size: var(--title-large); transition: 0.4s ease-in-out; }
 
@@ -58,7 +63,6 @@ h3{ font-size: var(--text-large); transition: 0.4s ease-in-out; }
     font-weight: 500;
 
     letter-spacing: var(--text-detail-spacing);
-    text-transform: var(--text-detail-transform);
 
     transition: 0.4s ease-in-out;
 }
