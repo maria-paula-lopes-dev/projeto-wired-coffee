@@ -27,6 +27,32 @@
     align-items: center;
 }
 
+/* Para containers que alternam de Vertical (Mobile) para Horizontal (Desktop) */
+.u-container-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    width: 100%;
+}
+
+/* Tamanho/Configurações para desktop */
+@media (min-width: 1024px){
+    .u-container-flex{
+        flex-direction: row;
+        justify-content: space-between;
+
+        text-align: left;
+    }
+
+    /* Filhos (texto e mídia) ocupem 50%/se distribuam bem */
+    .u-container-flex > *{
+        flex: 1;
+    }
+}
+
 /* APLICADAS EM SECTIONS */
 /* Para seções com textos alinhados à esquerda */
 .u-text-left{

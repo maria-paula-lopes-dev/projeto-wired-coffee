@@ -63,35 +63,31 @@
     <!-- MAIN -->
     <main class="main">
         <!-- SECTION HERO -->
-        <section class="section u-text-center section--dark hero__home">
+        <section class="section section--dark hero__home u-text-center">
 
-            <div class="container u-text-center hero__content"> <!-- DIV CONTENT -->
-
-                <!-- Nome usado em UX: pequeno texto acima do título -->
-                <p class="u-eyebrow u-text-inverse hero__eyebrow">Descubra qual a sua receita favorita</p>
-
-                <h1 class="u-text-inverse hero__title">Wired Coffee</h1>
-
-                <p class="u-text-inverse hero__text">
-                    Uma experiência pensada para quem quer ir além do café comum. Explore receitas, métodos e sabores que transformam o simples ato de fazer café em uma experiência completa.
-                </p>
+            <!-- Pra que no desktop, estejam um ao lado do outro -->
+            <div class="u-container-flex container">
+                <div class="container u-text-center hero__content"> <!-- DIV CONTENT -->
+                    <!-- Nome usado em UX: pequeno texto acima do título -->
+                    <p class="u-eyebrow u-text-inverse hero__eyebrow">Descubra qual a sua receita favorita</p>
+                    <h1 class="u-text-inverse hero__title">Wired Coffee</h1>
+                    <p class="u-text-inverse hero__text">
+                        Uma experiência pensada para quem quer ir além do café comum. Explore receitas, métodos e sabores que transformam o simples ato de fazer café em uma experiência completa.
+                    </p>
                 
-                <a href="#" class="hero__cta link--btn">Explorar Receitas</a>
+                    <a href="#" class="link--btn hero__cta ">Explorar Receitas</a>
+                </div> <!-- DIV CONTENT -->
 
-            </div> <!-- DIV CONTENT -->
-
-            <div class="hero__midia"> <!-- DIV MIDIA -->
-                <!-- Grãos (decorativo) -->
-                <img src="src/assets/images/home/graos-hero.png" alt="Grãos de Café" class="hero__bg">
-
-                <!-- Xícara (responsiva) -->
-                <picture>
-                    <source media="(min-width: 768px)" srcset="src/assets/images/home/home-hero-pc.png">
-
-                    <img src="src/assets/images/home/home-hero-sp.png" alt="Xícara de Café" class="hero__cup">
-                </picture>
-
-            </div> <!-- DIV MIDIA -->
+                <div class="hero__midia"> <!-- DIV MIDIA -->
+                    <!-- Grãos (decorativo) -->
+                    <img src="src/assets/images/home/graos-hero.png" alt="Grãos de Café" class="hero__bg">
+                    <!-- Xícara (responsiva) -->
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="src/assets/images/home/home-hero-pc.png">
+                        <img src="src/assets/images/home/home-hero-sp.png" alt="Xícara de Café" class="hero__cup">
+                    </picture>
+                </div> <!-- DIV MIDIA -->
+            </div>
 
         </section> <!-- SECTION HERO -->
     </main> <!-- BLOCK -->

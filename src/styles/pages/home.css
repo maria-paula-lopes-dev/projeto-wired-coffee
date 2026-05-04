@@ -1,2 +1,64 @@
 @charset "UTF-8";
 /* ESTILO PADRÃO DO HOME */
+
+/* IMAGENS EM CAMADAS NA DIV MIDIA */
+.hero__midia{
+    /* Alinha os elementos (imagens) dentro do container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative; /* Ponto de referência para os elementos internos */
+
+    width: 100%;
+    min-width: 300px; /* Espaço exite mesmo antes das imagens carregarem - evita que outro elemento 'pule' pra dentro enquanto não carrega*/
+    margin: 40px 0;
+}
+
+/* IMAGEM DO GRÃO */
+.hero__bg{
+    position: absolute; /* Tira de fluxo pra que a xícar 'passe por cima' */
+
+    /* Centralizando os grãos no centro */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    z-index: 1; /* Na camada de baixo */
+
+    width: 100%;
+    max-width: 500px;
+
+    transition: 0.5s ease-in-out;
+}
+
+/* IMAGEM DA XÍCARA */
+.hero__cup{
+    position: relative;
+    z-index: 2; /* Xícara sobre o grão */
+
+    width: 100%;
+    height: auto;
+
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,0.5));
+
+}
+
+/* Redimensionando tamanho dos grãos no desktop */
+@media (min-width: 768px){
+
+    .hero__midia{
+        margin: 0 0;
+    }
+
+    .hero__bg{
+        transform: translate(-50%, -50%) scale(1.3);
+    }
+}
+
+@media (min-width: 1024px){
+
+    .hero__content{
+        text-align: left;
+    }
+}
