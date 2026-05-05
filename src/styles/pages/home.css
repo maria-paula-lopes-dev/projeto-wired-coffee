@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* ESTILO PADRÃO DO HOME */
 
+/* --- SECTION HERO --- */
 /* IMAGENS EM CAMADAS NA DIV MIDIA */
 .hero__midia{
     /* Alinha os elementos (imagens) dentro do container */
@@ -44,21 +45,70 @@
 
 }
 
+/* --- SECTION ABOUT --- */
+
+/* ordem mobile */
+.about__text{ order: 1; }
+.about__midia{ order: 2; }
+
+/* Para que a imagem ocupe todo o espaço da div */
+.about__coffee-shop{
+    /* Comportamento de bloco ocupando todo o espaço */
+    display: block;
+
+    width: 100%; /* Força a imagem a ocupar 100% da largura da div pai */
+    height: auto; /* Mantém a proporção da imagem sem achatar */
+
+    /* Define a proporção: 1/1 (quadrado) ou 4/5 (retrato) */
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+
+    border-radius: var(--radius-small);
+}
+
+/* Espaçamento do botão */
+.about__reading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+    width: 100%;
+}
+
+
 /* Redimensionando tamanho dos grãos no desktop */
 @media (min-width: 768px){
-
-    .hero__midia{
-        margin: 0 0;
-    }
 
     .hero__bg{
         transform: translate(-50%, -50%) scale(1.3);
     }
+
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1200px){
 
-    .hero__content{
+    .about__layout{
         text-align: left;
+    }
+
+    /* OREDER */
+    .about__midia{
+        order: 1;
+        flex: 1; /* Ocupa metade do espaço disponível */
+        max-width: 500px; /* Limita o tamanho da foto no desktop */
+    }
+
+    .about__text{
+        order: 2;
+        flex: 1.2; /* Dá um pouco mais de espaço para o texto do que para a foto */
+    }
+
+    .about__reading{
+        flex-direction: row;
+    }
+
+    .about__timer{
+        display: none;
     }
 }

@@ -2,6 +2,11 @@
 
 /* PARA AS CLASSES GLOBAIS E REUTILIZÁVEIS - WIRED */
 
+/* CONFIGURAÇÃO DO BODY */
+body{
+    background-color: var(--bg-page);
+}
+
 /* CONTAINER GLOBAL */
 /* Serve pra limitar a largura do conteúdo em telas grandes e o contraste nas borgas do celular */
 .container{
@@ -39,7 +44,7 @@
 }
 
 /* Tamanho/Configurações para desktop */
-@media (min-width: 1024px){
+@media (min-width: 1200px){
     .u-container-flex{
         flex-direction: row;
         justify-content: space-between;
