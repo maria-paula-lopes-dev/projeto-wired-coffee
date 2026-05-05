@@ -46,6 +46,13 @@
 }
 
 /* --- SECTION ABOUT --- */
+/* LAYOUT */
+.about__layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
 
 /* ordem mobile */
 .about__text{ order: 1; }
@@ -60,10 +67,11 @@
     height: auto; /* Mantém a proporção da imagem sem achatar */
 
     /* Define a proporção: 1/1 (quadrado) ou 4/5 (retrato) */
-    aspect-ratio: 4 / 5;
+    aspect-ratio: 3 / 4;
     object-fit: cover;
 
     border-radius: var(--radius-small);
+    box-shadow: var(--shadow-medium);
 }
 
 /* Espaçamento do botão */
@@ -89,6 +97,7 @@
 @media (min-width: 1200px){
 
     .about__layout{
+        gap: 80px;
         text-align: left;
     }
 
@@ -106,9 +115,5 @@
 
     .about__reading{
         flex-direction: row;
-    }
-
-    .about__timer{
-        display: none;
     }
 }
