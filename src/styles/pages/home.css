@@ -56,7 +56,10 @@
 
 /* ordem mobile */
 .about__text{ order: 1; }
-.about__midia{ order: 2; }
+.about__midia{ 
+    order: 2; 
+    box-shadow: var(--shadow-strong);
+}
 
 /* Para que a imagem ocupe todo o espaço da div */
 .about__coffee-shop{
@@ -71,7 +74,6 @@
     object-fit: cover;
 
     border-radius: var(--radius-small);
-    box-shadow: var(--shadow-medium);
 }
 
 /* Espaçamento do botão */

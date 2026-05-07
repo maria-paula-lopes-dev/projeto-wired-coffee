@@ -86,11 +86,16 @@
 }
 
 /* TEXT FOOTER */
-.footer__copyright-text{
+.footer__copyright-text, .footer__copyright{
     text-align: center;
     color: var(--color-text-inverse);
 
     opacity: 0.6;
+}
+
+/* BY ME */
+.footer__copyright{
+    font-size: 0.75rem;
 }
 
 /* --- Media Query --- */
