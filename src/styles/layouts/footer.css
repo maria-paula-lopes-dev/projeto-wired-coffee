@@ -63,11 +63,6 @@
     color: var(--color-text-inverse);
 }
 
-/* CONTAINER LIST */
-.footer__list-container{
-    
-}
-
 /* LISTA */
 .footer__list{
     display: flex;
