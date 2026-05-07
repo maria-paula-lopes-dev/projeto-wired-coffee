@@ -1,1 +1,130 @@
-/*Rodapé padrão*/
+@charset "UTF-8";
+/* RODAPÉ PADRÃO - WIRED */
+
+/* FOOTER */
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 175rem;
+
+    margin: 50px auto 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    background-color: var(--bg-strong);
+
+    position: relative;
+    z-index: 1;
+}
+
+/* DIV LOGO */
+.footer__logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+    background-color: var(--bg-section-highlight);
+
+    position: absolute;
+    top: 0;
+    left: 50%; /* Centraliza horizontalmente em relação ao pai */
+    transform: translate(-50%, -50%);
+
+    cursor: pointer;
+}
+
+/* IMG LOGO */
+.footer__logo{
+    width: 80%;
+    height: auto;
+}
+
+/* DIV CONTENT */
+.footer__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    margin: 10px;
+    padding: 16px;
+}
+
+/* TITLE FOOTER */
+.footer__copyright-title{
+    color: var(--color-text-inverse);
+}
+
+/* CONTAINER LIST */
+.footer__list-container{
+    
+}
+
+/* LISTA */
+.footer__list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    text-align: center;
+}
+
+/* LINKS FOOTER */
+.footer__links{
+    color: var(--color-text-inverse);
+    opacity: 0.6;
+
+    transition: 0.5s ease;
+}
+
+/* LINKS FOOTER HOVER */
+.footer__links:hover{
+    opacity: 1;
+}
+
+/* TEXT FOOTER */
+.footer__copyright-text{
+    text-align: center;
+    color: var(--color-text-inverse);
+
+    opacity: 0.6;
+}
+
+/* --- Media Query --- */
+@media (min-width: 768px){
+
+    /* Footer logo container */
+    .footer__logo-container{
+        transition: transform 0.3s ease;
+    }
+
+    /* LOGO CONTAINER HOVER */
+    .footer__logo-container:hover{
+        transform: translate(-50%, -50%) scale(1.1); 
+    }
+
+    /* LISTA */
+    .footer__list{
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    /* LINKS FOOTER */
+    li:hover{
+        transform: scale(1.1);
+    }
+
+    /* TITLE FOOTER */
+    .footer__copyright-title{
+        font-size: 3em;
+    }
+
+}

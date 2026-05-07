@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* ESTILO PADRÃO DO CABEÇALHO */
+/* ESTILO PADRÃO DO CABEÇALHO - WIRED*/
 
 /* HEADER */
 .header{
@@ -26,7 +26,7 @@
     max-width: 120px;
     height: auto; /* Mantém as proporções pra evitar distorções */
 
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.9s ease-in-out;
 }
 
 .header__logo:hover{
