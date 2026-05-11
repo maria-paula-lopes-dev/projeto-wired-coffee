@@ -1,6 +1,14 @@
 @charset "UTF-8";
 /* ESTILO PADRÃO DO CABEÇALHO - WIRED*/
 
+/* NOVA REGRA PRO HEADER */
+#header-placeholder{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
 /* HEADER */
 .header{
     display: flex;
@@ -14,10 +22,11 @@
     background-color: var(--bg-page);
     box-shadow: var(--shadow-medium);
 
-    /* MENU FIXO */
+    /* MENU FIXO 
     position: sticky;
-    top: 0; /* Grude no topo */
+    top: 0; /* Grude no topo
     z-index: 1000;
+    */
 }
 
 /* CONTROLE DA IMAGEM DE LOGO */

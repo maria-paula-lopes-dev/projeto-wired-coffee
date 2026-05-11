@@ -1,0 +1,40 @@
+<!-- HEADER -->
+<header class="header"> <!-- BLOCK -->
+    <!-- LOGO MENU -->
+    <a href="#" class="header__logo"> <!-- Normalmente a logo é um atalho pra Home -->
+        <picture>
+            <!-- A imagem da logo vai denpender do tamanho da tela. Se for maior que 768px, ele adiciona a imagem pra desktop, senão ele manté, a pra mobile (favicon) -->
+            <source media="(min-width: 768px)" srcset="/src/assets/images/logo/logo-wired-pc.png">
+            <!-- Imagem MB -->
+                <img src="/src/assets/images/favicon/favicon-wired.svg" alt="Logo Wired">
+        </picture>
+    </a><!-- LOGO MENU -->
+
+    <!-- MENU  -->
+    <nav class="header__nav">
+        <ul class="header__menu">
+            <li class="header__itens">
+                <a href="/index.html" class="header__links">Home</a>
+            </li>
+
+            <li class="header__itens">
+                <a href="/src/pages/receitas.html" class="header__links">Receitas</a>
+            </li>
+
+            <li class="header__itens">
+                <a href="/src/pages/aprenda-mais.html" class="header__links">Sobre Café</a>
+            </li>
+        </ul>
+    </nav><!-- MENU -->
+
+    <!-- BOTÃO TOGGLE DO MENU (controle de estado via JS) -->
+    <button class="header__toggle" aria-label="Abrir menu">
+        <!-- ÍCONE: estado FECHADO (hamburger) -->
+        <i class="fa-solid fa-bars-staggered header__icon"></i>
+
+        <!-- ÍCONE: estado ABERTO (close) -->
+        <i class="fa-solid fa-xmark header__icon"></i>
+    </button>
+    <!-- BOTÃO TOGGLE DO MENU -->
+
+</header><!-- HEADER -->

@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wired Coffee</title>
+    <title>Wired-Coffee</title>
     <meta name="description" content="Aprenda sobre café, receitas, métodos e equipamentos.">
 
     <!-- BIBLIOTECA DE ÍCONES -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <!-- FAVICON -->
     <link rel="shortcut icon" href="src/assets/images/favicon/favicon-wired.svg" type="image/x-icon">
@@ -19,46 +19,10 @@
     <script src="src/scripts/main.js" defer></script>
 </head>
 <body>
+
     <!-- HEADER -->
-    <header class="header"> <!-- BLOCK -->
-        <!-- LOGO MENU -->
-        <a href="/" class="header__logo"> <!-- Normalmente a logo é um atalho pra Home -->
-            <picture>
-                <!-- A imagem da logo vai denpender do tamanho da tela. Se for maior que 768px, ele adiciona a imagem pra desktop, senão ele manté, a pra mobile (favicon) -->
-                <source media="(min-width: 768px)" srcset="src/assets/images/logo/logo-wired-pc.png">
-                <!-- Imagem MB -->
-                 <img src="src/assets/images/favicon/favicon-wired.svg" alt="Logo Wired">
-            </picture>
-        </a><!-- LOGO MENU -->
-
-        <!-- MENU  -->
-        <nav class="header__nav">
-            <ul class="header__menu">
-                <li class="header__itens">
-                    <a href="" class="header__links">Home</a>
-                </li>
-
-                <li class="header__itens">
-                    <a href="" class="header__links">Receitas</a>
-                </li>
-
-                <li class="header__itens">
-                    <a href="" class="header__links">Sobre Café</a>
-                </li>
-            </ul>
-        </nav><!-- MENU -->
-
-        <!-- BOTÃO TOGGLE DO MENU (controle de estado via JS) -->
-        <button class="header__toggle" aria-label="Abrir menu">
-            <!-- ÍCONE: estado FECHADO (hamburger) -->
-            <i class="fa-solid fa-bars-staggered header__icon"></i>
-
-            <!-- ÍCONE: estado ABERTO (close) -->
-            <i class="fa-solid fa-xmark header__icon"></i>
-        </button>
-        <!-- BOTÃO TOGGLE DO MENU -->
-    
-    </header><!-- HEADER -->
+    <div id="header-placeholder"></div>
+    <!-- HEADER -->
 
     <!-- MAIN -->
     <main class="main">
@@ -147,45 +111,9 @@
     <!-- MAIN -->
 
     <!-- FOOTER -->
-    <footer class="footer">
-        
-        <!-- DIV CONTAINER LOGO -->
-        <div class="footer__logo-container">
-            <img src="src/assets/images/favicon/favicon-wired.svg" alt="Logo Footer" class="footer__logo">
-        </div> <!-- DIV CONTAINER LOGO -->
-
-        <!-- DIV CONTENT -->
-        <div class="footer__content">
-            
-            <h1 class="footer__copyright-title">Wired Coffee</h1>
-
-            <!-- DIV COM LINKS -->
-            <div class="footer__list-container">
-
-                <ul class="footer__list">
-                    <li>
-                        <a href="#" class="footer__links">Home</a>
-                    </li>
-                    
-                    <li>
-                        <a href="#" class="footer__links">Receitas</a>
-                    </li>
-
-                    <li>
-                        <a href="#" class="footer__links">Sobre Café</a>
-                    </li>
-                </ul>
-
-            </div> <!-- DIV COM LINKS -->
-
-            <p class="footer__copyright-text">Wired Coffee © — Experiência, sabor e conhecimento em cada preparo.</p>
-
-            <p class="footer__copyright">by Maria Paula 2026</p>
-
-        </div> <!-- DIV CONTENT -->
-
-    </footer>
+    <div id="footer-placeholder"></div>
     <!-- FOOTER -->
+
 </body>
 </html>
 
