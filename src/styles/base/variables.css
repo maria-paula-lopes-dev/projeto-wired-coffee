@@ -15,6 +15,9 @@
     --bg-section-highlight: var(--color-2);
     --bg-strong: var(--color-3);
 
+    /* CARDS */
+    --bg-card: #e6d6c0;
+
     /*AÇÕES*/
     --color-action: var(--color-4);
     --color-action-secondary: var(--color-5);

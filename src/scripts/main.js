@@ -15,6 +15,13 @@ async function includeHeader() { // Essa tarefa pode demorar por vir de outro ar
     const toggle = document.querySelector('.header__toggle');
     const nav = document.querySelector('.header__nav');
 
+    /* 
+    No código antigo o JS procurava o botão e já saia instalando o clique
+    Se o arquivo header.html demorasse a carregar, o JS não encontraria o botão
+    Consequentemente o navegador entraria em erro crítico 
+    */
+
+    // Checa se o botão e o menu estão na página/foram identificados, se sim, ele liga o clique, se não, ele não trava o site
     if (toggle && nav) {
         toggle.addEventListener('click', () => {
             // O toggle funciona como um apagador

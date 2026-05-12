@@ -13,7 +13,6 @@
 
     width: 100%;
     min-width: 300px; /* Espaço exite mesmo antes das imagens carregarem - evita que outro elemento 'pule' pra dentro enquanto não carrega*/
-    margin: 40px 0;
 }
 
 /* IMAGEM DO GRÃO */

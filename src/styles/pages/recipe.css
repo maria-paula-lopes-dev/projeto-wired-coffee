@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+/* RECEITAS - WIRED */
+
+/* --- SECTION HERO --- */
+/* DIV MIDIA */
+.hero__midia{
+    width: 100%;
+    min-width: 300px; /* Espaço exite mesmo antes das imagens carregarem - evita que outro elemento 'pule' pra dentro enquanto não carrega*/
+    max-width: 400px;
+}
+
+/* IMG HERO */
+.hero__img{
+    /* Comportamento de bloco ocupando todo o espaço */
+    display: block;
+
+    width: 100%; /* Força a imagem a ocupar 100% da largura da div pai */
+    height: auto; /* Mantém a proporção da imagem sem achatar */
+
+    /* Define a proporção: 1/1 (quadrado) ou 4/5 (retrato) */
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+
+    border-radius: var(--radius-small);
+}
+
+/* --- SECTION CATALOG --- */
+/* TITLE */
+.recipe-catalog__title{
+    display: inline-block; /* Faz o elemento mater o comportamento de texto */
+    padding-bottom: 5px;
+    border-bottom: 0.5px solid var(--color-text);
+}
+
+/* CONTAINER DE CONTROLS */
+.recipe-catalog__controls{
+    margin-top: 30px;
+}
+
+/* ORGANIZAÇÃO DO NAV FILTER */
+.recipe-catalog__filter-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* SPAN */
+.recipe-catalog__filter-label{
+    font-size: var(--text-large);
+    font-weight: bold;
+    color: var(--color-text);
+}
+
+/* ESTILO DOS BOTÕES */
+.recipe-catalog__filter-btn{
+    font-size: var(--text-large);
+}
+
+.recipe-catalog__filter-btn:hover{
+    color: var(--color-action);
+}
+
+/* CONTAINER */
+.recipe-catalog__search-bar{
+    margin-top: 20px;
+}
+
+/* SEARCH */
+.recipe-catalog__search-wrapper{
+    position: relative;
+    width: 100%;
+}
+
+/* CAMPO */
+.recipe-catalog__search-input{
+    width: 100%;
+    padding: 12px 60px 12px 20px;
+
+    border-radius: 50px;
+    border: 0.1px solid var(--color-text);
+
+    color: var(--color-action);
+    background: none;
+
+    outline: none; /* Remove borda padrão */
+    font-size: 1em;
+}
+
+/* BOTÃO */
+.recipe-catalog__search-submit{
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    /* Pra centralizar o ícone */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    border-radius: 50%;
+
+    color: var(--color-text-inverse);
+    background-color: var(--color-action);
+
+    cursor: pointer;
+}
+
+/* CONTAINER GRID */
+.recipe-catalog__grid{
+    display: grid;
+    /* No mobile é 1fr e não espaçamentos entre os cards */
+    grid-template-columns: 1fr;
+    gap: 0;
+
+    margin-top: 60px;
+}
+
+/* CARDS */
+.recipe-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    min-height: 100vh; /* Tela toda no mobile */
+    padding: 40px 20px;
+    transition: background-color 0.3s ease;
+}
+
+/* ÍCONES */
+.recipe-card__icons{
+    margin-bottom: 20px;
+}
+
+/* ÍCONES SVG */
+.recipe-card__icon{
+    width: 120px;
+    height: auto;
+}
+
+/* CARD TITLE */
+.recipe-card__title{
+    font-size: var(--title-medium);
+    color: var(--color-action);
+}
+
+/* CARD DESCRIPTION */
+.recipe-card__description{
+    font-size: var(--text-large);
+}
+
+/* META */
+.recipe-card__meta{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* CLOCK & SPAN*/
+.fa-clock, .recipe-card__time{
+    color: var(--color-action);
+}
+
+@media (min-width: 768px){
+
+    .recipe-catalog__grid{
+        /* Pra que não seja necessário escrever várias media queries */
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* auto-fill é um 'organizador inteligente'. Ele tenta encaixar o máximo de colunas possíveis em uma linha. minmax é a regra de tamanhos dos cards... nunca deixar os cards ficarem menor que 300px pra não quebrar os textos. 1fr é pra se sobrar espaço na linha, esticar os cards igualmente */
+        gap: 30px;
+        padding: 0 20px;
+    }
+
+    .recipe-card{
+        min-height: auto;
+
+        border-radius: var(--radius-small);
+        background-color: var(--bg-card);
+        
+        box-shadow: var(--shadow-medium);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+    }
+
+    .recipe-card:hover{
+        transform: translateY(-10px) scale(1.02);
+        box-shadow: var(--shadow-strong);
+    }
+}
+
+
+@media (min-width: 1024px){
+    
+    /* IMAGE HERO */
+    .hero__img{
+        aspect-ratio: 3 / 4;
+    }
+}
