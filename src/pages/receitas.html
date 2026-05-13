@@ -77,17 +77,17 @@
                         <span class="recipe-catalog__filter-label">Filtrar por:</span>
 
                         <!-- Categorias -->
-                        <button class="recipe-catalog__filter-btn">Todos</button>
+                        <button class="recipe-catalog__filter-btn" data-filter="all">Todos</button>
 
-                        <button class="recipe-catalog__filter-btn">Clássicos</button>
+                        <button class="recipe-catalog__filter-btn" data-filter="classicos">Clássicos</button>
 
-                        <button class="recipe-catalog__filter-btn">Com leite</button>
+                        <button class="recipe-catalog__filter-btn"data-filter="leite">Com leite</button>
 
-                        <button class="recipe-catalog__filter-btn">Gelados</button>
+                        <button class="recipe-catalog__filter-btn" data-filter="gelados">Gelados</button>
 
-                        <button class="recipe-catalog__filter-btn">Doces</button>
+                        <button class="recipe-catalog__filter-btn" data-filter="doces">Doces</button>
 
-                        <button class="recipe-catalog__filter-btn">Especiais</button>
+                        <button class="recipe-catalog__filter-btn" data-filter="especiais">Especiais</button>
                         <!-- Categorias -->
                     </nav>
                     <!-- Filter -->
@@ -99,7 +99,8 @@
                         <div class="recipe-catalog__search-wrapper">
                             <input 
                             type="text" 
-                            class="recipe-catalog__search-input" placeholder="Pesquisar" 
+                            class="recipe-catalog__search-input"placeholder="Pesquisar"
+                            autocomplete="off"
                             id="search">
 
                             <button type="submit" class="recipe-catalog__search-submit">
@@ -117,7 +118,7 @@
                 <div class="recipe-catalog__grid">
 
                     <!-- Card 1 -->
-                    <a href="" class="recipe-card">
+                    <a href="" class="recipe-card" data-category="classicos">
 
                         <!-- icon -->
                         <div class="recipe-card__icons">
@@ -142,7 +143,7 @@
                     <!-- Card 1 -->
 
                     <!-- Card 2 -->
-                    <a href="" class="recipe-card">
+                    <a href="" class="recipe-card" data-category="classicos">
 
                         <!-- icon -->
                         <div class="recipe-card__icons">
@@ -167,7 +168,7 @@
                     <!-- Card 2 -->
 
                     <!-- Card 3 -->
-                    <a href="" class="recipe-card">
+                    <a href="" class="recipe-card" data-category="classicos">
 
                         <!-- icon -->
                         <div class="recipe-card__icons">
@@ -192,7 +193,7 @@
                     <!-- Card 3 -->
 
                     <!-- Card 4 -->
-                    <a href="" class="recipe-card">
+                    <a href="" class="recipe-card" data-category="classicos">
 
                         <!-- icon -->
                         <div class="recipe-card__icons">
@@ -219,7 +220,7 @@
                     <!--new category-->
 
                     <!-- Card 5 -->
-                    <a href="" class="recipe-card">
+                    <a href="" class="recipe-card" data-category="leite">
 
                         <!-- icon -->
                         <div class="recipe-card__icons">
@@ -244,7 +245,7 @@
                     <!-- Card 5 -->
 
                     <!-- Card 6 -->
-                    <a href="" class="recipe-card">
+                    <a href="" class="recipe-card" data-category="leite">
 
                         <!-- icon -->
                         <div class="recipe-card__icons">
@@ -269,7 +270,7 @@
                     <!-- Card 6 -->
 
                     <!-- Card 7 -->
-                    <a href="" class="recipe-card">
+                    <a href="" class="recipe-card" data-category="leite">
 
                         <!-- icon -->
                         <div class="recipe-card__icons">
@@ -294,7 +295,7 @@
                     <!-- Card 7 -->
 
                     <!-- Card 8 -->
-                    <a href="" class="recipe-card">
+                    <a href="" class="recipe-card" data-category="leite">
 
                         <!-- icon -->
                         <div class="recipe-card__icons">
@@ -321,7 +322,7 @@
                     <!--new category-->
 
                     <!-- Card 9 -->
-                    <a href="" class="recipe-card">
+                    <a href="" class="recipe-card" data-category="gelados">
 
                         <!-- icon -->
                         <div class="recipe-card__icons">
@@ -346,7 +347,7 @@
                     <!-- Card 9 -->
 
                     <!-- Card 10 -->
-                    <a href="" class="recipe-card">
+                    <a href="" class="recipe-card" data-category="gelados">
 
                         <!-- icon -->
                         <div class="recipe-card__icons">
@@ -371,7 +372,7 @@
                     <!-- Card 10 -->
 
                     <!-- Card 11 -->
-                    <a href="" class="recipe-card">
+                    <a href="" class="recipe-card" data-category="gelados">
 
                         <!-- icon -->
                         <div class="recipe-card__icons">
@@ -396,7 +397,7 @@
                     <!-- Card 11 -->
 
                     <!-- Card 12 -->
-                    <a href="" class="recipe-card">
+                    <a href="" class="recipe-card" data-category="gelados">
 
                         <!-- icon -->
                         <div class="recipe-card__icons">
@@ -423,7 +424,7 @@
                     <!--new category-->
 
                     <!-- Card 13 -->
-                    <a href="" class="recipe-card">
+                    <a href="" class="recipe-card" data-category="doces">
 
                         <!-- icon -->
                         <div class="recipe-card__icons">
@@ -448,7 +449,7 @@
                     <!-- Card 13 -->
 
                     <!-- Card 14 -->
-                    <a href="" class="recipe-card">
+                    <a href="" class="recipe-card" data-category="doces">
 
                         <!-- icon -->
                         <div class="recipe-card__icons">
@@ -473,7 +474,7 @@
                     <!-- Card 14 -->
 
                     <!-- Card 15 -->
-                    <a href="" class="recipe-card">
+                    <a href="" class="recipe-card" data-category="doces">
 
                         <!-- icon -->
                         <div class="recipe-card__icons">
@@ -498,7 +499,7 @@
                     <!-- Card 15 -->
 
                     <!-- Card 16 -->
-                    <a href="" class="recipe-card">
+                    <a href="" class="recipe-card" data-category="doces">
 
                         <!-- icon -->
                         <div class="recipe-card__icons">
@@ -525,7 +526,7 @@
                     <!--new category-->
 
                     <!-- Card 17 -->
-                    <a href="" class="recipe-card">
+                    <a href="" class="recipe-card" data-category="especiais">
 
                         <!-- icon -->
                         <div class="recipe-card__icons">
@@ -550,7 +551,7 @@
                     <!-- Card 17 -->
 
                     <!-- Card 18 -->
-                    <a href="" class="recipe-card">
+                    <a href="" class="recipe-card" data-category="especiais">
 
                         <!-- icon -->
                         <div class="recipe-card__icons">
@@ -575,7 +576,7 @@
                     <!-- Card 18 -->
 
                     <!-- Card 19 -->
-                    <a href="" class="recipe-card">
+                    <a href="" class="recipe-card" data-category="especiais">
 
                         <!-- icon -->
                         <div class="recipe-card__icons">
@@ -600,7 +601,7 @@
                     <!-- Card 19 -->
 
                     <!-- Card 20 -->
-                    <a href="" class="recipe-card">
+                    <a href="" class="recipe-card" data-category="especiais">
 
                         <!-- icon -->
                         <div class="recipe-card__icons">

@@ -55,10 +55,26 @@
 
 /* ESTILO DOS BOTÕES */
 .recipe-catalog__filter-btn{
+    position: relative;
     font-size: var(--text-large);
 }
 
-.recipe-catalog__filter-btn:hover{
+.recipe-catalog__filter-btn::after{
+    content: " ";
+    position: absolute;
+    left: 0; /* Inicio do link */
+    bottom: 0; /* Na base do link */
+
+    width: 0%;
+    height: 2px;
+
+    background-color: var(--color-action);
+
+    transition: 0.5s ease-in-out;
+}
+
+.recipe-catalog__filter-btn:hover::after{
+    width: 100%;
     color: var(--color-action);
 }
 
