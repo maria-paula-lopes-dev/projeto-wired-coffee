@@ -26,6 +26,6 @@
     position: relative; /* Referência pra possíveis elementos filhos 'grudarem nele' */
     background-repeat: no-repeat;
     background-size: cover; /* Preenche tudo */
-    background-position: center;
+    background-position: center bottom;
     overflow: hidden;
 }
