@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/*ORIGIN - WIRED COFFEE*/
+
+/* --- SECTION HERO --- */
+/* IMG */
+.hero__origin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 80vh;
+    padding: 60px 20px;
+
+    background-image: url('/src/assets/images/aprenda-mais/origem-hero-sp.jpg');
+}
