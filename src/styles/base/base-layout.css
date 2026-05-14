@@ -77,3 +77,15 @@ body{
 .u-text-inverse{
     color: var(--color-text-inverse);
 }
+
+/* Utilitário para o Footer sobrepor a seção anterior */
+.footer-overlap {
+    position: relative;
+    z-index: 10; /* Garante que fique acima dos cards */
+    margin-top: -50px; /* Sobe o footer para cima dos cards. */
+}
+
+/* Opcional: Adicionar um respiro no topo do footer para o logo não ficar colado nos cards */
+.footer-overlap .footer__inner {
+    padding-top: 20px;
+}
