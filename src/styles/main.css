@@ -9,6 +9,7 @@
 /*COMPONENTS*/
 @import "./components/section.css";
 @import "./components/links.css";
+@import "./components/lists.css";
 
 /*LAYOUTS*/
 @import "./layouts/footer.css";

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* LISTS.CSS - WIRED */
+
+.list{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.list_item{
+    position: relative;
+
+    margin-bottom: 12px;
+    padding-left: 30px;
+
+    font-size: 1.1rem;
+    line-height: 1.6;
+
+    color: var(--color-action);
+}
+
+.list_item:hover{
+    transform: none;
+    transition: none;
+}
+
+.list_item::before{
+    content: '';
+    position: absolute;
+
+    left: 0;
+    top: 0.7em;
+
+    width: 12px;
+    height: 12px;
+
+    border: 2px solid var(--color-action);
+    border-radius: 50%;
+
+    background-color: transparent;
+
+    transform: translateY(-50%);
+}
+
+@media (min-width: 768px){
+
+    .list{
+        padding-left: 0;
+        margin-left: 0;
+    }
+}
