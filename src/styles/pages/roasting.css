@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/*ROASTING - WIRED COFFEE*/
+
+/* --- SECTION HERO --- */
+/* IMG */
+.hero__roasting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 80vh;
+    padding: 60px 20px;
+
+    background-image: url('/src/assets/images/aprenda-mais/torra-hero-sp.jpg');
+}
